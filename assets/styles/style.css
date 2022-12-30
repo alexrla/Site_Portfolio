@@ -1,0 +1,36 @@
+/* Header */
+#header-container img {
+  height: 100%;
+
+  width: 100%;
+}
+
+.fa-brands.fa-linkedin  {
+  color: #3074B2;
+}
+
+.fa-brands.fa-github {
+  color: #8B59E3;
+}
+
+.fa-brands.fa-instagram {
+  color: #D14C4B;
+}
+
+.fa-brands.fa-square-facebook {
+  color: #1974EA;
+}
+
+#header-container .portfolio-item {
+  width: 30%;
+}
+
+#header-container .portfolio-item:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 1199px) {
+  .portfolio-item {
+    padding: 3em!important;
+  }
+}
