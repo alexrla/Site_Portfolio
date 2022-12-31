@@ -50,6 +50,9 @@
   text-align: justify!important;
 }
 
+/* Section - Projects */
+.bg-dark-gray { background-color: #868E96; }
+
 /* Footer */
 .fa-solid.fa-memo {
   color: #1974EA;
