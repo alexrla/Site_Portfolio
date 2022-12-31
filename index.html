@@ -26,8 +26,8 @@
           <div class="col-lg-8 col-md-7">
             <div class="d-flex flex-column">
               <div class="p-5 bg-dark text-white">
-                <div class="d-flex flex-row justify-content-between align-items-center">
-                  <h1 class="display-4 mx-sm-auto mx-lg-0">John Doe</h1>
+                <div class="d-flex flex-row justify-content-lg-between justify-content-center align-items-center">
+                  <h1 class="display-4">John Doe</h1>
                   <div class="d-none d-lg-block">
                     <a href="http://linkedin.com">
                       <i class="fa-brands fa-linkedin fa-2x"></i>
@@ -51,13 +51,14 @@
                 </div>
               </div>
               <div class="p-4 bg-black text-white">
-                <p class="lead text-sm-center text-lg-start">Desenvolvedor Web FullStack</p>
+                <p class="lead text-center text-lg-start">Desenvolvedor Web FullStack</p>
               </div>
               <div>
                 <div class="d-flex flex-row text-white align-items-stretch text-center">
                   <div 
                     class="portfolio-item p-3 bg-primary"
                     data-bs-toggle="collapse" 
+                    data-bs-target="#collapseHome"
                     role="button" 
                     aria-expanded="false" 
                     aria-controls="collapseHome"
@@ -68,6 +69,7 @@
                   <div 
                     class="portfolio-item p-3 bg-success"
                     data-bs-toggle="collapse" 
+                    data-bs-target="#collapseResume"
                     role="button" 
                     aria-expanded="false" 
                     aria-controls="collapseResume"
@@ -78,6 +80,7 @@
                   <div 
                     class="portfolio-item p-3 bg-warning"
                     data-bs-toggle="collapse" 
+                    data-bs-target="#collapseProjects"
                     role="button" 
                     aria-expanded="false" 
                     aria-controls="collapseProjects"
@@ -88,6 +91,7 @@
                   <div 
                     class="portfolio-item p-3 bg-danger"
                     data-bs-toggle="collapse" 
+                    data-bs-target="#collapseContact"
                     role="button" 
                     aria-expanded="false" 
                     aria-controls="collapseContact"
@@ -101,6 +105,51 @@
           </div>
         </div>
       </header>
+      <!-- Início -->
+      <section id="collapseHome" class="collapse show">
+        <div class="bg-primary text-white p-4 text-center">
+          <h2>Bem-vindo ao meu PortFólio!</h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, id.
+          </p>
+        </div>
+        <div class="p-5">
+          <h2>Minhas skills</h2>
+          <hr>
+          <h4 class="mt-5 text-center">HTML5</h4>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-orange" style="width: 100%"></div>
+          </div>
+          <h4 class="mt-5 text-center">CSS3</h4>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-blue" style="width: 95%"></div>
+          </div>
+          <h4 class="mt-5 text-center">Bootstrap</h4>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-purple" style="width: 90%"></div>
+          </div>
+          <h4 class="mt-5 text-center">JavaScript</h4>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-yellow" style="width: 80%"></div>
+          </div>
+          <h4 class="mt-5 text-center">React</h4>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-light-blue" style="width: 90%"></div>
+          </div>
+          <h4 class="mt-5 text-center">Node</h4>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-light-green" style="width: 85%"></div>
+          </div>
+          <h4 class="mt-5 text-center">MongoDB</h4>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-green" style="width: 90%"></div>
+          </div>
+          <h4 class="mt-5 text-center">PostgreSQL</h4>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar progress-bar-striped bg-dark-blue" style="width: 90%"></div>
+          </div>
+        </div>
+      </section>
 
       <!-- Footer -->
       <footer class="p-5 bg-dark text-white" id="footer-container">

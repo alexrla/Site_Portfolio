@@ -35,6 +35,16 @@
   }
 }
 
+/* Section - Home */
+.bg-orange { background-color: #E1772E; }
+.bg-blue { background-color: #2A6EB5; }
+.bg-purple { background-color: #845DF2; }
+.bg-yellow { background-color: #EFD81D; }
+.bg-light-blue { background-color: #69CFF6; }
+.bg-light-green { background-color: #8CBF3D; }
+.bg-green { background-color: #366648; }
+.bg-dark-blue{ background-color: #335A92; }
+
 /* Footer */
 .fa-solid.fa-memo {
   color: #1974EA;
