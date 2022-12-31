@@ -45,6 +45,11 @@
 .bg-green { background-color: #366648; }
 .bg-dark-blue{ background-color: #335A92; }
 
+/* Section - Resume */
+.justify {
+  text-align: justify!important;
+}
+
 /* Footer */
 .fa-solid.fa-memo {
   color: #1974EA;
